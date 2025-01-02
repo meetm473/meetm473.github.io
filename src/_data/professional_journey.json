@@ -1,0 +1,39 @@
+{
+    "steps": [
+        {
+            "role": "Graduate Researcher",
+            "company": "FREE Lab, University of Michigan",
+            "location": "Ann Arbor, MI",
+            "time_start": "August 2023",
+            "time_end": "Present",
+            "contributions": [
+                "Leveraging fluid flow to develop a novel tremor suppression device for people with Parkinson's disease.",
+                "Exploring the use of soft pneumatic actuators for wearable devices."
+            ]
+        },
+        {
+            "role": "Controls Engineering Intern",
+            "company": "Redwood Materials",
+            "location": "McCarran, NV",
+            "time_start": "May 2024",
+            "time_end": "August 2024",
+            "contributions": [
+                "Enhanced the controls network of a copper foil recycling plant by identifying efficient ways to communicate between the Mitsubishi and Siemens PLC modules.",
+                "Integrated a spray gun system onto a FANUC robot arm for an automated spray coating system.",
+                "Conducted tests in the plant to ensure the safety of the robot and personnel during automated operations."
+            ]
+        },
+        {
+            "role": "Project Associate",
+            "company": "THRIVE Lab",
+            "location": "IIITDM Kancheepuram, India",
+            "time_start": "September 2022",
+            "time_end": "June 2023",
+            "contributions": [
+                "Intuitive Surgical Inc. sponsored medical device R&D project.",
+                "Conceptualized and fabricated a disposable surgical tooltip for robot-assisted minimally invasive surgery with a 2+1 degree of freedom gripper.",
+                "Managed and maintained records of the lab inventory and financial resources."
+            ]
+        }
+    ]
+}
