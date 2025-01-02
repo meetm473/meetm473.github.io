@@ -628,13 +628,6 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
-.text-justify {
-  text-align: justify;
-}
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -646,9 +639,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.font-bold {
-  font-weight: 700;
 }
 .font-semibold {
   font-weight: 600;
