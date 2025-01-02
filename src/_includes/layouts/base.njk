@@ -1,7 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>
+      {% if showH1Title != false %}
+          {{ title }}
+      {% else %}
+          Mayank Mehta
+      {% endif %}
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/main.css' | url }}" />
 
