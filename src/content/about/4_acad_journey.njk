@@ -1,3 +1,23 @@
 <div class="mb-4">
-    <p class="text-2xl"> Academic Credentials </p>
+    <p class="text-2xl"> Education </p>
+</div>
+
+<div class="grid grid-cols-2 gap-4">
+    {% set box_config = "mb-4 p-4 rounded-lg shadow-lg bg-zinc-50 dark:bg-zinc-300 
+                            flex items-center justify-center text-center 
+                            whitespace-normal relative flex items-center space-x-4" %}
+    {% set img_config = "w-20 h-20 md:w-30 md:h-30 lg:w-40 lg:h-40" %}
+        <div class="{{box_config}}">
+            <img class="{{img_config}}" 
+                         src="/img/iiitdm.svg" 
+                         alt="IIITDM Kancheepuram">
+            <p class="text-gray-700"> Bachelor of Technology in Electronics and Communication Engineering </p>
+        </div>
+
+        <div class="{{box_config}}">
+            <img class="{{img_config}}" 
+                         src="/img/umich.svg" 
+                         alt="University of Michigan">
+            <p class="text-gray-700"> Master of Science in Mechanical Engineering </p>
+        </div>
 </div>
