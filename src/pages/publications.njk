@@ -1,0 +1,27 @@
+---
+title: Publications
+layout: layouts/base.njk
+permalink: /publications/
+eleventyNavigation:
+  key: Publications
+  order: 2
+---
+
+<ol class="list-bracketed-decimal">
+     {% for publication in publications.items %}
+     <li>
+         {% for author in publication.authors %}
+            {% if loop.index == publication.author_idx %}
+              <strong>{{ author }}</strong>,
+            {% else %}
+              {{ author }},
+            {% endif %}
+         {%endfor%}
+         {% if publication.publication_type == "journal" %}
+             "{{ publication.title }}," <em>{{ publication.publication }}</em>, {{ publication.volume }} ({{ publication.year }}): {{ publication.pages }}.
+         {% else %}
+            "{{ publication.title }}," in <em>{{ publication.publication }}</em>, {{ publication.location }} ({{ publication.year }}): {{ publication.pages }}.
+         {% endif %}
+     </li>
+     {% endfor %}
+</ul>

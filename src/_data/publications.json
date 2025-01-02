@@ -1,0 +1,28 @@
+{
+    "items": [
+        {
+            "title": "Paper 1",
+            "authors": ["Author 1", "Author 2"],
+            "author_idx": "1",
+            "publication_type": "journal",
+            "publication": "Journal of Stuff",
+            "volume": "1",
+            "pages": "1-10",
+            "year": "2020",
+            "link": "https://doi.org/…",
+            "abstract": "This is the abstract of the paper 1."
+        },
+        {
+            "title": "Paper 2",
+            "authors": ["Author 1", "Author 2"],
+            "author_idx": "2",
+            "publication_type": "conference",
+            "location": "City, Country",
+            "pages": "1-10",
+            "publication": "Proceedings of Conference",
+            "year": "2021",
+            "link": "https://doi.org/…",
+            "abstract": "This is the abstract of the paper 2."
+        }
+    ]
+}

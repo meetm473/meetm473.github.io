@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.list-bracketed-decimal {
+    list-style-type: none;
+    counter-reset: list-counter;
+  }
+  
+.list-bracketed-decimal li {
+counter-increment: list-counter;
+position: relative;
+padding-left: 2em;
+}
+
+.list-bracketed-decimal li::before {
+content: "[" counter(list-counter) "]";
+position: absolute;
+left: 0;
+}
