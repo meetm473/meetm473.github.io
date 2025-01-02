@@ -1,0 +1,109 @@
+{
+    "tools": [
+        {
+            "name": "C/C++",
+            "type": "programming",
+            "icon_slug": "cplusplus"
+        },
+        {
+            "name": "Python",
+            "type": "programming",
+            "icon_slug": "python"
+        },
+        {
+            "name": "MATLAB",
+            "type": "programming",
+            "icon_slug": "downloaded:matlab"
+        },
+        {
+            "name": "PLC Programming",
+            "type": "programming",
+            "icon_slug": "downloaded:plc"
+        },
+        {
+            "name": "LabView",
+            "type": "programming",
+            "icon_slug": "labview"
+        },
+        {
+            "name": "SolidWorks",
+            "type": "software",
+            "icon_slug": "downloaded:solidworks"
+        },
+        {
+            "name": "Ignition",
+            "type": "software",
+            "icon_slug": "downloaded:ignition"
+        },
+        {
+            "name": "Siemens TIA Portal",
+            "type": "software",
+            "icon_slug": "downloaded:siemens"
+        },
+        {
+            "name": "Mitsubishi GXWorks",
+            "type": "software",
+            "icon_slug": "downloaded:mitsubishi"
+        },
+        {
+            "name": "ROS",
+            "type": "software",
+            "icon_slug": "ros"
+        },
+        {
+            "name": "Gazebo",
+            "type": "software",
+            "icon_slug": "downloaded:gazebo"
+        },
+        {
+            "name": "COMSOL",
+            "type": "software",
+            "icon_slug": "comsol"
+        },
+        {
+            "name": "Arduino",
+            "type": "software",
+            "icon_slug": "arduino"
+        },
+        {
+            "name": "Multisim",
+            "type": "software",
+            "icon_slug": "multisim"
+        },
+        {
+            "name": "KiCAD",
+            "type": "software",
+            "icon_slug": "kicad"
+        },
+        {
+            "name": "Docker",
+            "type": "software",
+            "icon_slug": "docker"
+        },
+        {
+            "name": "Git",
+            "type": "software",
+            "icon_slug": "git"
+        },
+        {
+            "name": "3D Printing",
+            "type": "fabrication",
+            "icon_slug": "downloaded:3dprinting"
+        },
+        {
+            "name": "Latex",
+            "type": "presentation",
+            "icon_slug": "latex"
+        },
+        {
+            "name": "Markdown",
+            "type": "presentation",
+            "icon_slug": "markdown"
+        },
+        {
+            "name": "MS Office Suite",
+            "type": "presentation",
+            "icon_slug": "downloaded:msoffice"
+        }
+    ]
+}

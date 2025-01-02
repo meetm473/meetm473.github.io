@@ -1,3 +1,17 @@
 <div class="mb-4">
-    <p class="text-2xl"> My Tool box </p>
+    <p class="text-2xl"> My Tool Box </p>
+</div>
+
+<div class="grid grid-cols-7 gap-4">
+    {% set common_config = "mb-4 p-4 rounded-lg shadow-lg bg-zinc-50 
+                            hover:bg-zinc-200 dark:bg-slate-700 hover:dark:bg-slate-500 
+                            flex items-center justify-center text-center 
+                            whitespace-normal relative" %}
+    {% for tool in tool_box.tools %}
+        <div class="{{common_config}}">
+            {{ tool.name }}
+             {# Add icons later #}
+            {# {% icon tool.icon_slug, class="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 fill-current text-black dark:text-white" %} #}
+        </div>
+    {% endfor %}
 </div>
