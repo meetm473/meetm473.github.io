@@ -1,0 +1,11 @@
+<ul class="flex space-x-8 mb-4" >
+     {% for item in contact.items %}
+          <li>
+               <a href="{{ item.link }}">
+                    <img class="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10" 
+                         src="{{ item.icon }}" 
+                         alt="{{ item.name }}">
+               </a>
+          </li>
+     {% endfor %}
+</ul>

@@ -1,20 +1,19 @@
 {
     "items": [
         {
-            "name": "test@example.com",
-            "link": "mailto:test@example.com"
+            "name": "mayanknm@umich.edu",
+            "link": "mailto:mayanknm@umich.edu",
+            "icon": "/img/icons/Gmail.svg"
         },
         {
-            "name": "Twitter",
-            "link": "https://twitter.com/…"
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/mayank-navneet-mehta/",
+            "icon": "/img/icons/LinkedIn.svg"
         },
         {
             "name": "GitHub",
-            "link": "https://github.com/…"
-        },
-        {
-            "name": "CodePen",
-            "link": "https://codepen.io/…"
+            "link": "https://github.com/meetm473",
+            "icon": "/img/icons/Github.svg"
         }
     ]
 }

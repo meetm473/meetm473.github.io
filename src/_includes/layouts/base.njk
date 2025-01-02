@@ -35,14 +35,17 @@
   <body class="dark:bg-zinc-800 dark:text-white">
     {% include "../components/navigation.njk" %}
     <main class="p-12 ">
-      <h1 class="text-3xl mb-8">{{title}}</h1>
+      {% if showH1Title != false %}
+        <h1 class="text-3xl mb-8">{{title}}</h1>
+      {% endif %}
       {{ content | safe }}
-      <ul>
-        {% for post in collections.blog_posts %}
-          <li><a href="{{ post.url | url }}">{{ post.data.title }}</a></li>
-        {% endfor %}
-      </ul>
     </main>
     <script src="{{ '/assets/main.js' | url }}"></script>
   </body>
+
+  <hr class="border-t-2 border-gray-300 my-4  ">
+  <footer class="flex justify-center">
+    {% include "../components/footer.njk" %}
+  </footer>
+
 </html>
