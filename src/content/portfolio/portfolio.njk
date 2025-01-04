@@ -19,7 +19,7 @@ eleventyNavigation:
       <a href="{{ project.url | url }}">
         <div class="{{common_config}}">
            <p class="text-xl">{{ project.data.title }}</p> 
-           <time datetime="{{ project.date | htmlDateString }}" class="italic" >{{ project.date | readableDate }}</time>
+           <time datetime="{{ project.date | htmlDateString }}" class="italic" >{{ project.date | postDate }}</time>
            <p>{{ project.data.description }}</p>
             {# Add images #}
         </div>

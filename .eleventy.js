@@ -1,9 +1,21 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginIcons = require('eleventy-plugin-icons');
 const embedYouTube = require("eleventy-plugin-youtube-embed");
+const pluginPDFEmbed = require('eleventy-plugin-pdfembed');
+const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
+
+  let options = {
+		html: true,
+		breaks: true
+	};
+
+	eleventyConfig.setLibrary("md", markdownIt(options));
   
+  eleventyConfig.addPlugin(pluginPDFEmbed, {
+		key: '95396ee85e3544409621eefeea8d2e06'
+	});
   eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(pluginIcons, {
@@ -55,6 +67,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc'
     }).toFormat("dd-MM-yy");
+  });
+
+  eleventyConfig.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
   });
 
   return {

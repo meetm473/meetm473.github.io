@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "eleventy-plugin-icons": "^4.5.1",
+    "eleventy-plugin-pdfembed": "^1.0.2",
     "eleventy-plugin-youtube-embed": "^1.11.0",
     "simple-icons": "^14.0.1"
   }

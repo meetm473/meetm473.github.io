@@ -1,7 +1,7 @@
 ---
 title: Underwater ROV
 date: 2020-07-21
-description: Some description about ROV.
+description: A basic underwater vehicle simulated in Gazebo and controlled via ROS.
 feature_img: img_name
 grid_num: 1
 ---

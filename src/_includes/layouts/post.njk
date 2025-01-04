@@ -3,6 +3,6 @@ layout: layouts/base.njk
 showH1Title: true
 ---
 <div class="max-w-8xl mx-auto p-4">
-    <time>{{ date | readableDate }}</time>
+    <time>{{ date | postDate }}</time>
     <article class="text-justify">{{ content | safe }}</article>
 </div>
