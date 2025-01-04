@@ -1,28 +1,28 @@
 {
     "items": [
         {
-            "title": "Paper 1",
-            "authors": ["Author 1", "Author 2"],
-            "author_idx": "1",
-            "publication_type": "journal",
-            "publication": "Journal of Stuff",
-            "volume": "1",
-            "pages": "1-10",
-            "year": "2020",
-            "link": "https://doi.org/…",
-            "abstract": "This is the abstract of the paper 1."
-        },
-        {
-            "title": "Paper 2",
-            "authors": ["Author 1", "Author 2"],
+            "title": "Embedded Valves for Distributed Control of Soft Pneumatic Actuators",
+            "authors": ["Zuo, R.", "Mehta., M.", "Han, D.H.", "Bruder, D."],
             "author_idx": "2",
             "publication_type": "conference",
-            "location": "City, Country",
-            "pages": "1-10",
-            "publication": "Proceedings of Conference",
+            "location": "Abu Dhabhi, UAE",
+            "pages": "8286-8292",
+            "publication": "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+            "year": "2024",
+            "link": "https://doi.org/10.1109/IROS58592.2024.10801494",
+            "abstract": "Soft robotic systems are inherently compliant, giving them unique capabilities not possessed by traditional rigid-bodied robot systems. Many soft systems rely on soft pneumatic actuators. One of the biggest downsides of such actuators is the need for bulky pressure-regulating devices and individual pneumatic supply lines. In this work, a miniaturized pressure-regulating system is developed and embedded into the unused space inside of a soft pneumatic McKibben actuator, enabling the simultaneous pressure control of multiple actuators connected to a single pneumatic supply line. This valve-embedded actuator is capable of regulating its internal pressure within 0.05 psi of a desired set point, even under external load. Compared to a conventional McKibben actuator driven by external valves, the valve-embedded actuator is experimentally shown to consistently achieve faster settling times. To showcase the practical application of the valve-embedded actuator on a robotic system, a 0.9m serial-linked robot driven by five independently controlled valve-embedded actuators was assembled, and was shown to achieve an average root mean square error of less than 1.5cm in a waypoint tracking experiment. The miniaturized pressure control system developed in this work is open source and could be embedded in any fluid-driven actuator, enabling more capable and densely actuated pneumatic soft robots."
+        },
+        {
+            "title": "Development of AUV for SAUVC during COVID-19",
+            "authors": ["Mehta, M.N.", "Mylraj, S.", "Bhate, V.N."],
+            "author_idx": "1",
+            "publication_type": "conference",
+            "publication": "IEEE OCEANS 2021",
+            "location": "San Diego, USA",
+            "pages": "1-8",
             "year": "2021",
-            "link": "https://doi.org/…",
-            "abstract": "This is the abstract of the paper 2."
+            "link": "https://doi.org/10.23919/OCEANS44145.2021.9705822",
+            "abstract": "This paper describes the design, implementation, and testing of control and vision algorithms for an AUV in virtual and real environments. Hardware design and the software stack of the vec6 underwater vehicle are described in this paper. The paper also presents a simulation test-bed, the uwv-simulator, which is developed using ROS and Gazebo. A custom arena similar to that used in the Singapore AUV Challenge is constructed in the simulation environment. One of the main motivations to develop the open-source simulation test-bed is to provide easy integration and testing of different cases and algorithms for autonomy. The software stack is designed to execute higher and abstract algorithms without the trouble of going through the lower-level functions."
         }
     ]
 }
