@@ -1,5 +1,6 @@
 {
     "layout": "layouts/post.njk",
     "permalink": "/portfolio/projects/{{ title | slugify }}/index.html",
-    "tags": "projects"
+    "tags": "projects",
+    "img_src_path": "/img/projects"
 }

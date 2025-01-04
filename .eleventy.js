@@ -1,8 +1,10 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginIcons = require('eleventy-plugin-icons');
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function(eleventyConfig) {
   
+  eleventyConfig.addPlugin(embedYouTube);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(pluginIcons, {
     mode: 'inline',
@@ -56,6 +58,8 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",  
     dir: { input: 'src', output: 'docs' }
     // pathPrefix: "/meetm473"
   };
