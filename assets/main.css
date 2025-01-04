@@ -554,6 +554,9 @@ video {
 .h-auto {
   height: auto;
 }
+.w-1\/2 {
+  width: 50%;
+}
 .w-1\/5 {
   width: 20%;
 }
@@ -568,6 +571,9 @@ video {
 }
 .max-w-5xl {
   max-width: 64rem;
+}
+.list-inside {
+  list-style-position: inside;
 }
 .list-outside {
   list-style-position: outside;
