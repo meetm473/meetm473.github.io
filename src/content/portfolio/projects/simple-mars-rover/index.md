@@ -1,6 +1,9 @@
 ---
 title: Simple Mars Rover
 date: 2022-05-23
+description: Some description about rover.
+feature_img: img_name
+grid_num: 2
 ---
 
 I have built this rover to experiment with different things in simulation in the future. The Gazebo world is designed to match the Martian atmospheric conditions as close as possible. I have referred to [this](https://grabcad.com/library/nasa-designed-rocker-bogie-rover-1) model from GrabCAD for modeling the bot.

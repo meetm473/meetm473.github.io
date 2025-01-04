@@ -1,6 +1,9 @@
 ---
 title: Underwater ROV
 date: 2022-05-23
+description: Some description about ROV.
+feature_img: img_name
+grid_num: 1
 ---
 
 Being a part of the Autonomous Underwater Vehicle (AUV) Society, IIITDM Kancheepuram has taught me myriad things. This simulation, in particular, was possible because of my role in society. The vehicle's design is inspired by the first underwater vehicle built by the society and it's named ROV-Bus _(because it looks like a bus)_. I would be using this robot as the base to test out various control algorithms in the underwater domain.
