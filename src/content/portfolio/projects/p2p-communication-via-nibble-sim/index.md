@@ -3,7 +3,7 @@ title: P2P communication via nibble-sim
 date: 2022-05-23
 description: A peer-to-peer communication network built on python.
 feature_img: img_name
-grid_num: 0
+grid_num: 2
 ---
 {% set img_path =  img_src_path + '/' + title | slugify %}
 
