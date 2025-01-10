@@ -1,14 +1,23 @@
 {
     "steps": [
         {
+            "role": "Graduate Student Instructor",
+            "company": "University of Michigan",
+            "location": "Ann Arbor, MI",
+            "time_start": "January 2025",
+            "time_end": "Present",
+            "contributions": [
+                "Providing support to graduate students in their studies of ME 568 – Vehicle Control Systems and ME 543 – Analytical and Computational Dynamics."
+            ]
+        },
+        {
             "role": "Graduate Researcher",
             "company": "FREE Lab, University of Michigan",
             "location": "Ann Arbor, MI",
             "time_start": "August 2023",
-            "time_end": "Present",
+            "time_end": "December 2024",
             "contributions": [
-                "Leveraging fluid flow to develop a novel tremor suppression device for people with Parkinson's disease.",
-                "Exploring the use of soft pneumatic actuators for wearable devices."
+                "Explored the use of fluid flow to develop a novel tremor suppression device for people with Parkinson's disease."
             ]
         },
         {
