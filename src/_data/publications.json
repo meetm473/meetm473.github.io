@@ -1,8 +1,20 @@
 {
     "items": [
+		{
+            "title": "CLEANSurgiTip: A Contamination Limiting, Expendable, and Novel Surgical Tooltip for Robot-Assisted Minimally Invasive Surgery",
+            "authors": ["Mehta, M.", "Srinivasan, M.", "Ranganathan, S.R.", "Patel, N.", "Chandrasekaran, K."],
+            "author_idx": "1",
+            "publication_type": "journal",
+            "volume": "19(3)",
+            "pages": "035001",
+            "publication": "Journal of Medical Devices",
+            "year": "2025",
+            "link": "https://doi.org/10.1115/1.4068612",
+            "abstract": "Over the last two decades, robot-assisted minimally invasive surgery has become more accessible and has contributed to improved patient outcomes. However, its adoption in resource-constrained environments is limited due to the cost of the consumables, such as surgical instruments and access to sterilization facilities. These surgical instruments often have a tooltip with intricate geometry, making it difficult to sterilize and reuse for multiple surgeries. This research work introduces a novel minimally invasive surgical (MIS) instrument, the CLEANSurgiTip, which features a disposable grasper designed to address biofouling while reducing overall costs through minimized waste. Unlike traditional tendon-driven systems, which suffer from reliability issues and require frequent replacements, the CLEANSurgiTip utilizes rigid shafts to transmit motion to a distal 2 + 1 degrees-of-freedom (DoF) grasper (pitch, yaw, and grasp). These rigid shafts ensure a consistent cross section, simplifying the sealing process against bodily fluids. The transmission mechanism is simplified using an elbow mechanism and flexible shafts in place of conventional gears for orthogonal motion transmission. The flexible shaft aids in decoupling the pitch and the yaw motion. The tooltip design promotes a simplified interface between the disposable grasper and the reusable shaft, facilitating easy detachment. The paper also presents a novel reusable tool shaft to drive the proposed tooltip."
+        },
         {
             "title": "Embedded Valves for Distributed Control of Soft Pneumatic Actuators",
-            "authors": ["Zuo, R.", "Mehta., M.", "Han, D.H.", "Bruder, D."],
+            "authors": ["Zuo, R.", "Mehta, M.", "Han, D.H.", "Bruder, D."],
             "author_idx": "2",
             "publication_type": "conference",
             "location": "Abu Dhabhi, UAE",
