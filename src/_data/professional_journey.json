@@ -1,13 +1,23 @@
 {
     "steps": [
+		{
+			"role": "Controls Engineering",
+			"company": "Redwood Materials",
+			"location": "McCarran, NV",
+			"time_start": "June 2025",
+			"time_end": "Present",
+			"contributions": [
+			]
+		},
         {
             "role": "Graduate Student Instructor",
             "company": "University of Michigan",
             "location": "Ann Arbor, MI",
             "time_start": "January 2025",
-            "time_end": "Present",
+            "time_end": "April 2025",
             "contributions": [
-                "Providing support to graduate students in their studies of ME 568 – Vehicle Control Systems and ME 543 – Analytical and Computational Dynamics."
+                "Assisting graduate students in their ME 568 – Vehicle Control Systems and ME 543 – Analytical and Computational Dynamics coursework.",
+				"Generating problem sets on vehicle control systems and providing guidance on computational assignments, and projects."
             ]
         },
         {
@@ -17,7 +27,7 @@
             "time_start": "August 2023",
             "time_end": "December 2024",
             "contributions": [
-                "Explored the use of fluid flow to develop a novel tremor suppression device for people with Parkinson's disease."
+                "Explored the use of fluid flow to develop a novel tremor suppression d0vice for people with Parkinson's disease."
             ]
         },
         {
