@@ -11,15 +11,14 @@ eleventyNavigation:
 
   {% set common_config = "mb-4 p-4 rounded-lg shadow-lg bg-zinc-50 
                           hover:bg-zinc-200 dark:bg-slate-700 hover:dark:bg-slate-500 
-                           items-center justify-center text-center 
-                          whitespace-normal relative" %}
+                          flex flex-col justify-start items-center text-center gap-6
+                          relative h-60 overflow-hidden" %}
 
   <div class="grid grid-cols-4 gap-4">
     {% for project in collections.projects | sort(attribute='data.grid_num') %}
       <a href="{{ project.url | url }}">
         <div class="{{common_config}}">
            <p class="text-xl">{{ project.data.title }}</p> 
-           <time datetime="{{ project.date | htmlDateString }}" class="italic" >{{ project.date | postDate }}</time>
            <p>{{ project.data.description }}</p>
             {# Add images #}
         </div>
