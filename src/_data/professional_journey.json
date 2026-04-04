@@ -1,12 +1,14 @@
 {
     "steps": [
 		{
-			"role": "Controls Engineering",
+			"role": "Controls Engineer",
 			"company": "Redwood Materials",
 			"location": "McCarran, NV",
 			"time_start": "June 2025",
 			"time_end": "Present",
 			"contributions": [
+				"Leading the control system development and commissioning for lithium extraction pilot plants.",
+				"Developing and designing an in-house TwinCAT library to support redundant Beckhoff controllers for blue-green deployment."
 			]
 		},
         {
@@ -27,7 +29,8 @@
             "time_start": "August 2023",
             "time_end": "December 2024",
             "contributions": [
-                "Explored the use of fluid flow to develop a novel tremor suppression d0vice for people with Parkinson's disease."
+                "Developed a control strategy based on variable damping coefficient to develop a semi-actively controlled tremor suppression device for people with Parkinson's disease.",
+                "Zuo, R., Mehta, M., Han, D. H., & Bruder, D. Embedded Valves for Distributed Control of Soft Pneumatic Actuators. In 2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), IEEE. (DOI: 10.1109/IROS58592.2024.10801494)"
             ]
         },
         {
@@ -49,11 +52,10 @@
             "time_start": "September 2022",
             "time_end": "June 2023",
             "contributions": [
-                "Intuitive Surgical Inc. sponsored medical device R&D project.",
-                "Conceptualized and fabricated a disposable surgical tooltip for robot-assisted minimally invasive surgery with a 2+1 degree of freedom gripper.",
-                "Managed and maintained records of the lab inventory and financial resources.",
-                "Manuscript for ASME Journal of Medical Devices under preparation: M. Mehta, M. Kumar, K. Chandrasekaran, N. Patel, 'CLEANSurgiTip: A Contamination Limiting, Expendable, And Novel Surgical Tool Tip.'",
-                "Manuscript for a conference under preparation: J.R. Sukesh, M. Mehta, K. Chandrasekaran, 'Transmission of Motion through Hermetic Barriers in Minimally Invasive Robotic Surgery Tools.'"
+                "Intuitive Surgical Inc. sponsored medical device R&D project guided by Dr. Karthik Chandrasekaran.",
+                "Conceptualized a disposable surgical tooltip for robot-assisted minimally invasive surgery with a 2+1 degree of freedom gripper.",
+                "Developed a detailed mechanical design of the prototype in SolidWorks and fabricated it using a combination of 3D printed parts, and machined and re-purposed components from other devices.",
+                "Mehta, Mayank, et al. \"CLEANSurgiTip: A Contamination Limiting, Expendable, and Novel Surgical Tooltip for Robot-Assisted Minimally Invasive Surgery.\" Journal of Medical Devices 19.3 (2025)(DOI: 10.1115/1.4068612)"
             ]
         }
     ]
