@@ -15,46 +15,51 @@
             "type": "programming",
             "icon_slug": "downloaded:matlab"
         },
+		{
+			"name": "ROS",
+			"type": "software",
+			"icon_slug": "ros"
+		},
+		{
+			"name": "Gazebo",
+			"type": "software",
+			"icon_slug": "downloaded:gazebo"
+		},
+        {
+            "name": "TwinCAT/Beckhoff",
+            "type": "programming",
+            "icon_slug": "downloaded:twincat"
+        },
         {
             "name": "PLC Programming",
             "type": "programming",
             "icon_slug": "downloaded:plc"
         },
         {
-            "name": "LabView",
-            "type": "programming",
-            "icon_slug": "labview"
-        },
-        {
-            "name": "SolidWorks",
+			"name": "SolidWorks",
             "type": "software",
             "icon_slug": "downloaded:solidworks"
         },
         {
-            "name": "Ignition",
+			"name": "Ignition",
             "type": "software",
             "icon_slug": "downloaded:ignition"
         },
         {
-            "name": "Siemens TIA Portal",
+			"name": "Siemens TIA Portal",
             "type": "software",
             "icon_slug": "downloaded:siemens"
         },
         {
-            "name": "Mitsubishi GXWorks",
+			"name": "Mitsubishi GXWorks",
             "type": "software",
             "icon_slug": "downloaded:mitsubishi"
         },
-        {
-            "name": "ROS",
-            "type": "software",
-            "icon_slug": "ros"
-        },
-        {
-            "name": "Gazebo",
-            "type": "software",
-            "icon_slug": "downloaded:gazebo"
-        },
+		{
+			"name": "LabView",
+			"type": "programming",
+			"icon_slug": "labview"
+		},
         {
             "name": "COMSOL",
             "type": "software",
@@ -99,11 +104,6 @@
             "name": "Markdown",
             "type": "presentation",
             "icon_slug": "markdown"
-        },
-        {
-            "name": "MS Office Suite",
-            "type": "presentation",
-            "icon_slug": "downloaded:msoffice"
         }
     ]
 }
