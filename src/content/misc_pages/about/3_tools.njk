@@ -3,14 +3,17 @@
 </div>
 
 <div class="grid grid-cols-7 gap-4">
-    {% set common_config = "group mb-4 p-4 rounded-lg shadow-lg bg-zinc-50 
-                            hover:bg-zinc-200 dark:bg-slate-700 hover:dark:bg-slate-500 
+    {% set common_config = "mb-4 p-4 rounded-lg shadow-lg bg-zinc-50 
+                            dark:bg-slate-700 
                             flex items-center justify-center text-center 
-                            whitespace-normal relative cursor-pointer transition-all" %}
+                            relative" %}
     {% for tool in tool_box.tools %}
         <div class="{{common_config}}">
-            <span class="group-hover:hidden">{{ tool.name }}</span>
-            {% icon tool.icon_slug, class="hidden group-hover:block w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 fill-current text-black dark:text-white" %}
+            {% if tool.size == "large" %}
+                {% icon tool.icon_slug, class="w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 fill-current text-black dark:text-white" %}
+            {% else %}
+                {% icon tool.icon_slug, class="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 fill-current text-black dark:text-white" %}
+            {% endif %}
         </div>
     {% endfor %}
 </div>
