@@ -25,35 +25,35 @@
 			"type": "software",
 			"icon_slug": "downloaded:gazebo"
 		},
+		{
+			"name": "Linux",
+			"type": "software",
+			"icon_slug": "linux"
+		},
+		{
+			"name": "SolidWorks",
+			"type": "software",
+			"icon_slug": "downloaded:solidworks"
+		},
         {
             "name": "TwinCAT/Beckhoff",
             "type": "programming",
-            "icon_slug": "downloaded:twincat"
+            "icon_slug": "downloaded:beckhoff"
         },
-        {
-            "name": "PLC Programming",
-            "type": "programming",
-            "icon_slug": "downloaded:plc"
-        },
-        {
-			"name": "SolidWorks",
-            "type": "software",
-            "icon_slug": "downloaded:solidworks"
-        },
+		{
+			"name": "Mitsubishi GXWorks",
+			"type": "software",
+			"icon_slug": "downloaded:mitsubishi"
+		},
+		{
+			"name": "Siemens TIA Portal",
+			"type": "software",
+			"icon_slug": "downloaded:siemens"
+		},
         {
 			"name": "Ignition",
             "type": "software",
             "icon_slug": "downloaded:ignition"
-        },
-        {
-			"name": "Siemens TIA Portal",
-            "type": "software",
-            "icon_slug": "downloaded:siemens"
-        },
-        {
-			"name": "Mitsubishi GXWorks",
-            "type": "software",
-            "icon_slug": "downloaded:mitsubishi"
         },
 		{
 			"name": "LabView",
@@ -63,7 +63,8 @@
         {
             "name": "COMSOL",
             "type": "software",
-            "icon_slug": "comsol"
+            "icon_slug": "comsol",
+            "size": "large"
         },
         {
             "name": "Arduino",
@@ -93,7 +94,7 @@
         {
             "name": "3D Printing",
             "type": "fabrication",
-            "icon_slug": "downloaded:3dprinting"
+            "icon_slug": "downloaded:3dp"
         },
         {
             "name": "Latex",
