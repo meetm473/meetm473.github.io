@@ -8,7 +8,8 @@
 			"time_end": "Present",
 			"contributions": [
 				"Leading the control system development and commissioning for lithium extraction pilot plants.",
-				"Developing and designing an in-house TwinCAT library to support redundant Beckhoff controllers for blue-green deployment."
+				"Architecting and developing an in-house TwinCAT library to support redundant Beckhoff controllers.",
+				"Developing CI/CD pipeline for blue-green deployment of software to run plants with near-zero downtime."
 			]
 		},
         {
